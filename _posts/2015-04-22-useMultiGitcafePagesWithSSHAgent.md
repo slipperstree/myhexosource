@@ -10,7 +10,7 @@ tags:
 拥有多个不同内容的个人静态站点（均使用Hexo），各自拥有独立域名，希望托管在gitcafe上操作：gitcafe的每一个帐号可以开设一个静态页面的站点（gitcafe pages服务）
 
 #操作
-于是我申请了多个gitcafe的id，且每一个id都开设了gitcafe pages进行deploy的时候希望通过ssh密钥验证的方式，所以在每个id的gitcafe的设置里都需要设定ssh公钥。可能是出于安全的考虑，在gitcafe里即使是不同的id也不允许使用相同的公钥所以我为每一个id都生成了一对专用的公钥和私钥（文件名不同，均放置在~/.ssh/下面）
+申请了多个gitcafe的id，且每一个id都开设了gitcafe pages进行deploy的时候希望通过ssh密钥验证的方式，所以在每个id的gitcafe的设置里都需要设定ssh公钥。可能是出于安全的考虑，在gitcafe里即使是不同的id也不允许使用相同的公钥所以我为每一个id都生成了一对专用的公钥和私钥（文件名不同，均放置在~/.ssh/下面）
 
 #问题
 当我利用hexo进行deploy的时候，只有其中一个站点能成功deploy，其他几个均报错提示用户AAA没有push到BBB账户的权限！
