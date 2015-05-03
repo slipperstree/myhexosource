@@ -67,11 +67,11 @@ try:
 		time.sleep(t)
 		
 		# 调整红绿蓝LED的各个颜色的亮度组合出各种颜色
-		for r in range (0, 101):
+		for r in xrange (0, 101, 20):
 			pwmR.ChangeDutyCycle(r)
-			for g in range (0, 101):
+			for g in xrange (0, 101, 20):
 				pwmG.ChangeDutyCycle(g)
-				for b in range (0, 101):
+				for b in xrange (0, 101, 20):
 					pwmB.ChangeDutyCycle(b)
 					time.sleep(0.01)
 
