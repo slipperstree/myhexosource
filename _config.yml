@@ -103,9 +103,9 @@ stylus:
 deploy:
 - type: git
   repo: git@github.com:slipperstree/slipperstree.github.com
-- type: git
-  repo: git@gitcafe.com:slipperstree/slipperstree
-  branch: gitcafe-pages
+#- type: git
+#  repo: git@gitcafe.com:slipperstree/slipperstree
+#  branch: gitcafe-pages
 
 # ============================================================================= 
 # NexT Theme configuration 

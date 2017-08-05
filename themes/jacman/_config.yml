@@ -77,15 +77,15 @@ toc:
 
 #### Links
 links:
-  Chenyuge's Blog: http://chenyuge.com,恩，宝贝女儿的小站
+  Chenyuge's Blog: http://www.chenyuge.com,恩，宝贝女儿的小站
   码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
   生命，宇宙以及一切的答案: https://www.google.com.hk/search?safe=off&q=What+is+the+answer+to+life%2C+the+universe%2C+and+everything
 
 
 
 #### Comment
-duoshuo_shortname:    mangolovecarrot ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+disqus_shortname:     mangolovecarrot ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
